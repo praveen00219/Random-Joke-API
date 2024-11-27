@@ -49,18 +49,7 @@ Make sure you have the following installed on your system:
 Run the following command to install all required packages:
 
 ```bash
- npm i express one-liner-joke dotenv
-```
-
----
-
-## Environment Variables
-
-Create a .env file in the project root directory and add the following:
-
-```env
-port=8080
-endpoint=http://localhost:8080
+ npm i express one-liner-joke
 ```
 
 ---
@@ -73,4 +62,4 @@ Start the server by running:
 npm start
 ```
 
-The server will start on http://localhost:8080.
+The server will start on http://localhost:4000.
